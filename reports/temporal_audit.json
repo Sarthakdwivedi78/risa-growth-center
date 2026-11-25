@@ -1,0 +1,147 @@
+{
+  "Attendee/Event/history_start": {
+    "earliest": "2025-01-15 00:00:00",
+    "latest": "2025-01-15 00:00:00",
+    "missing": 0
+  },
+  "Attendee/Event/history_end": {
+    "earliest": "2025-04-20 00:00:00",
+    "latest": "2025-04-20 00:00:00",
+    "missing": 0
+  },
+  "Attendee/Event/event_starts_at": {
+    "earliest": "2025-04-12 10:00:00",
+    "latest": "2025-04-12 10:00:00",
+    "missing": 0
+  },
+  "Attendee/Event/event_ends_at": {
+    "earliest": "2025-04-13 20:00:00",
+    "latest": "2025-04-13 20:00:00",
+    "missing": 0
+  },
+  "Attendee/Targets/effective_at": {
+    "earliest": "2025-01-15 09:00:00",
+    "latest": "2025-03-15 09:00:00",
+    "missing": 0
+  },
+  "Attendee/Campaigns/created_at": {
+    "earliest": "2025-01-15 09:00:00",
+    "latest": "2025-01-15 09:00:00",
+    "missing": 0
+  },
+  "Attendee/Campaigns/planned_start_at": {
+    "earliest": "2025-01-20 09:00:00",
+    "latest": "2025-02-15 09:00:00",
+    "missing": 0
+  },
+  "Attendee/Campaigns/planned_end_at": {
+    "earliest": "2025-04-13 20:00:00",
+    "latest": "2025-04-13 20:00:00",
+    "missing": 0
+  },
+  "Attendee/Daily Marketing/activity_date": {
+    "earliest": "2025-01-20 00:00:00",
+    "latest": "2025-04-18 00:00:00",
+    "missing": 0
+  },
+  "Attendee/People/first_seen_at": {
+    "earliest": "2025-01-20 09:00:00",
+    "latest": "2025-04-13 10:00:00",
+    "missing": 0
+  },
+  "Attendee/Interest and Engagement/occurred_at": {
+    "earliest": "2025-01-20 09:00:00",
+    "latest": "2025-04-12 13:00:00",
+    "missing": 0
+  },
+  "Attendee/Registrations/registered_at": {
+    "earliest": "2025-01-20 10:00:00",
+    "latest": "2025-04-10 10:00:00",
+    "missing": 0
+  },
+  "Attendee/Registration History/effective_at": {
+    "earliest": "2025-01-20 10:00:00",
+    "latest": "2025-04-11 15:00:00",
+    "missing": 0
+  },
+  "Attendee/Check-ins/occurred_at": {
+    "earliest": "2025-04-12 10:00:00",
+    "latest": "2025-04-13 17:59:43",
+    "missing": 0
+  },
+  "Sponsor/Event/history_start": {
+    "earliest": "2025-01-15 00:00:00",
+    "latest": "2025-01-15 00:00:00",
+    "missing": 0
+  },
+  "Sponsor/Event/history_end": {
+    "earliest": "2025-04-20 00:00:00",
+    "latest": "2025-04-20 00:00:00",
+    "missing": 0
+  },
+  "Sponsor/Event/event_starts_at": {
+    "earliest": "2025-04-12 10:00:00",
+    "latest": "2025-04-12 10:00:00",
+    "missing": 0
+  },
+  "Sponsor/Event/event_ends_at": {
+    "earliest": "2025-04-13 20:00:00",
+    "latest": "2025-04-13 20:00:00",
+    "missing": 0
+  },
+  "Sponsor/Targets/effective_at": {
+    "earliest": "2025-01-15 09:00:00",
+    "latest": "2025-03-15 09:00:00",
+    "missing": 0
+  },
+  "Sponsor/Brands/created_at": {
+    "earliest": "2025-01-15 08:00:00",
+    "latest": "2025-03-30 08:00:00",
+    "missing": 0
+  },
+  "Sponsor/Sponsor contacts/created_at": {
+    "earliest": "2025-01-15 08:15:00",
+    "latest": "2025-03-30 08:15:00",
+    "missing": 0
+  },
+  "Sponsor/Sponsor campaigns/planned_start_at": {
+    "earliest": "2025-01-20 09:00:00",
+    "latest": "2025-01-20 09:00:00",
+    "missing": 0
+  },
+  "Sponsor/Sponsor campaigns/planned_end_at": {
+    "earliest": "2025-04-10 18:00:00",
+    "latest": "2025-04-10 18:00:00",
+    "missing": 0
+  },
+  "Sponsor/Sponsor campaigns/created_at": {
+    "earliest": "2025-01-15 08:00:00",
+    "latest": "2025-01-15 08:00:00",
+    "missing": 0
+  },
+  "Sponsor/Sponsor interactions/occurred_at": {
+    "earliest": "2025-01-20 10:00:00",
+    "latest": "2025-04-13 10:05:00",
+    "missing": 0
+  },
+  "Sponsor/Brand qualification/effective_at": {
+    "earliest": "2025-01-15 08:30:00",
+    "latest": "2025-04-20 18:00:00",
+    "missing": 0
+  },
+  "Sponsor/Partner opportunities/created_at": {
+    "earliest": "2025-01-21 09:00:00",
+    "latest": "2025-03-24 09:00:00",
+    "missing": 0
+  },
+  "Sponsor/Opportunity history/effective_at": {
+    "earliest": "2025-01-21 12:00:00",
+    "latest": "2025-04-03 12:00:00",
+    "missing": 0
+  },
+  "Sponsor/Sponsor activations/linked_at": {
+    "earliest": "2025-03-02 12:00:00",
+    "latest": "2025-04-03 12:00:00",
+    "missing": 0
+  }
+}

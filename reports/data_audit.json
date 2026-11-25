@@ -1,0 +1,1111 @@
+{
+  "Attendee/Read me": {
+    "rows": 8,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "topic": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      },
+      "description": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 8
+      }
+    }
+  },
+  "Attendee/Field guide": {
+    "rows": 86,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "source_table": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 9
+      },
+      "field": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 52
+      },
+      "data_type": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 5
+      },
+      "meaning": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 53
+      }
+    }
+  },
+  "Attendee/Event": {
+    "rows": 1,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "event_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 1
+      },
+      "history_start": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "history_end": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "event_starts_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "event_ends_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "timezone": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 1
+      },
+      "currency": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 1
+      },
+      "fictional": {
+        "pandas_type": "bool",
+        "missing": 0,
+        "distinct": 1
+      }
+    }
+  },
+  "Attendee/Targets": {
+    "rows": 2,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "effective_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 2
+      },
+      "identified_external_people_goal": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 2
+      },
+      "registration_goal": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 2
+      },
+      "unique_external_visitors_goal": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 2
+      },
+      "marketing_budget_inr": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 2
+      },
+      "target_version": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      }
+    }
+  },
+  "Attendee/Campaigns": {
+    "rows": 7,
+    "key": "campaign_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "channel": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "target_audience": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "objective": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "created_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "planned_start_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 7
+      },
+      "planned_end_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      }
+    }
+  },
+  "Attendee/Daily Marketing": {
+    "rows": 483,
+    "key": "activity_id",
+    "duplicate_ids": 2,
+    "conflicting_ids": 0,
+    "fields": {
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "activity_date": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 84
+      },
+      "impressions": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 452
+      },
+      "clicks": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 121
+      },
+      "reported_reach": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 424
+      },
+      "landing_page_sessions": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 103
+      },
+      "registration_starts": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 32
+      },
+      "marketing_spend_inr": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 20
+      },
+      "platform": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "activity_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 481
+      },
+      "campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      }
+    }
+  },
+  "Attendee/People": {
+    "rows": 3685,
+    "key": "person_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "person_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3682
+      },
+      "person_type": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "first_seen_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 108
+      },
+      "first_touch_source": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "first_campaign_name": {
+        "pandas_type": "object",
+        "missing": 145,
+        "distinct": 7
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "person_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3685
+      },
+      "first_campaign_id": {
+        "pandas_type": "object",
+        "missing": 145,
+        "distinct": 7
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      }
+    }
+  },
+  "Attendee/Interest and Engagement": {
+    "rows": 11650,
+    "key": "interaction_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "person_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3497
+      },
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "occurred_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 3149
+      },
+      "event_type": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 8
+      },
+      "detail": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 16
+      },
+      "interaction_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 11650
+      },
+      "person_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3500
+      },
+      "campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      }
+    }
+  },
+  "Attendee/Registrations": {
+    "rows": 2840,
+    "key": "registration_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "person_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2839
+      },
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "registered_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 81
+      },
+      "registration_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2840
+      },
+      "person_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2840
+      },
+      "campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      }
+    }
+  },
+  "Attendee/Registration History": {
+    "rows": 5911,
+    "key": "history_id",
+    "duplicate_ids": 4,
+    "conflicting_ids": 0,
+    "fields": {
+      "person_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2839
+      },
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "effective_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 368
+      },
+      "status": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "history_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 5907
+      },
+      "registration_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2840
+      },
+      "person_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2840
+      },
+      "campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      }
+    }
+  },
+  "Attendee/Check-ins": {
+    "rows": 3390,
+    "key": "event_id",
+    "duplicate_ids": 20,
+    "conflicting_ids": 0,
+    "fields": {
+      "person_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2149
+      },
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 170,
+        "distinct": 7
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "occurred_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 3125
+      },
+      "result": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "verification": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      },
+      "source": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      },
+      "event_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3370
+      },
+      "person_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2150
+      },
+      "registration_id": {
+        "pandas_type": "object",
+        "missing": 170,
+        "distinct": 2005
+      },
+      "campaign_id": {
+        "pandas_type": "object",
+        "missing": 170,
+        "distinct": 7
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      }
+    }
+  },
+  "Sponsor/Read me": {
+    "rows": 8,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "topic": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      },
+      "description": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 8
+      }
+    }
+  },
+  "Sponsor/Field guide": {
+    "rows": 87,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "source_table": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 10
+      },
+      "field": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 53
+      },
+      "data_type": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 5
+      },
+      "meaning": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 54
+      }
+    }
+  },
+  "Sponsor/Event": {
+    "rows": 1,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "event_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 1
+      },
+      "history_start": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "history_end": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "event_starts_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "event_ends_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "timezone": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 1
+      },
+      "currency": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 1
+      },
+      "fictional": {
+        "pandas_type": "bool",
+        "missing": 0,
+        "distinct": 1
+      }
+    }
+  },
+  "Sponsor/Targets": {
+    "rows": 2,
+    "key": null,
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "effective_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 2
+      },
+      "qualified_brands_goal": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 2
+      },
+      "confirmed_partnerships_goal": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 2
+      },
+      "target_version": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      }
+    }
+  },
+  "Sponsor/Brands": {
+    "rows": 180,
+    "key": "brand_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "brand_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      },
+      "industry": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "created_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 75
+      },
+      "brand_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      }
+    }
+  },
+  "Sponsor/Sponsor contacts": {
+    "rows": 270,
+    "key": "contact_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "contact_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 268
+      },
+      "job_title": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      },
+      "brand_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      },
+      "created_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 137
+      },
+      "contact_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 270
+      },
+      "brand_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      }
+    }
+  },
+  "Sponsor/Sponsor campaigns": {
+    "rows": 6,
+    "key": "sponsor_campaign_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "channel": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "objective": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "audience": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "planned_start_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "planned_end_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "created_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 1
+      },
+      "sponsor_campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      }
+    }
+  },
+  "Sponsor/Sponsor interactions": {
+    "rows": 953,
+    "key": "interaction_id",
+    "duplicate_ids": 3,
+    "conflicting_ids": 0,
+    "fields": {
+      "brand_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      },
+      "contact_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 200
+      },
+      "campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "channel": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 4
+      },
+      "event_type": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 8
+      },
+      "outcome": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 11
+      },
+      "summary": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 11
+      },
+      "occurred_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 280
+      },
+      "interaction_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 950
+      },
+      "attempt_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 370
+      },
+      "origin_interaction_id": {
+        "pandas_type": "object",
+        "missing": 373,
+        "distinct": 370
+      },
+      "brand_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      },
+      "contact_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 202
+      },
+      "sponsor_campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      }
+    }
+  },
+  "Sponsor/Brand qualification": {
+    "rows": 434,
+    "key": "history_id",
+    "duplicate_ids": 1,
+    "conflicting_ids": 0,
+    "fields": {
+      "brand_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      },
+      "qualification_status": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 5
+      },
+      "reason": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 9
+      },
+      "source_campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "effective_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 234
+      },
+      "history_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 433
+      },
+      "brand_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 180
+      },
+      "sponsor_campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      }
+    }
+  },
+  "Sponsor/Partner opportunities": {
+    "rows": 58,
+    "key": "opportunity_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "opportunity_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 58
+      },
+      "brand_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 57
+      },
+      "primary_contact_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 57
+      },
+      "originating_campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      },
+      "support_type": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 2
+      },
+      "created_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 41
+      },
+      "opportunity_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 58
+      },
+      "brand_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 57
+      },
+      "primary_contact_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 57
+      },
+      "sponsor_campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 6
+      }
+    }
+  },
+  "Sponsor/Opportunity history": {
+    "rows": 230,
+    "key": "history_id",
+    "duplicate_ids": 2,
+    "conflicting_ids": 0,
+    "fields": {
+      "opportunity_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 58
+      },
+      "brand_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 57
+      },
+      "stage": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 7
+      },
+      "proposed_value_inr": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 21
+      },
+      "confirmed_value_inr": {
+        "pandas_type": "int64",
+        "missing": 0,
+        "distinct": 16
+      },
+      "owner_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "effective_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 67
+      },
+      "history_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 228
+      },
+      "opportunity_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 58
+      },
+      "brand_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 57
+      },
+      "owner_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      }
+    }
+  },
+  "Sponsor/Sponsor activations": {
+    "rows": 3,
+    "key": "activation_id",
+    "duplicate_ids": 0,
+    "conflicting_ids": 0,
+    "fields": {
+      "brand_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "opportunity_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "attendee_campaign_name": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "activation_note": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 1
+      },
+      "linked_at": {
+        "pandas_type": "datetime64[ns]",
+        "missing": 0,
+        "distinct": 3
+      },
+      "activation_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "brand_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "opportunity_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      },
+      "attendee_campaign_id": {
+        "pandas_type": "object",
+        "missing": 0,
+        "distinct": 3
+      }
+    }
+  }
+}

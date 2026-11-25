@@ -1,0 +1,8 @@
+campaign_id,campaign,channel,owner,budget,status,people,registrations,confirmed,attendees,spend,cpr,cpa,conversion,reg_attendance,budget_utilization,deleted,performance
+C01,Campus Ambassadors,ambassadors,Meera Iyer,,Historical,600,520,480,390,42000.0,80.76923076923077,107.6923076923077,0.8666666666666667,0.75,,0,Efficient
+C02,Paid Social,paid_social,Arjun Verma,,Historical,960,680,580,340,93000.0,136.76470588235293,273.52941176470586,0.7083333333333334,0.5,,0,Review
+C03,Creator Partners,creators,Nisha Rao,,Historical,490,350,290,175,59000.0,168.57142857142858,337.14285714285717,0.7142857142857143,0.5,,0,Review
+C04,College Partnerships,college_partners,Meera Iyer,,Historical,500,450,420,385,31000.0,68.88888888888889,80.51948051948052,0.9,0.8555555555555555,,0,Efficient
+C05,Student Referrals,referrals,Dev Malhotra,,Historical,410,350,320,275,19000.0,54.285714285714285,69.0909090909091,0.8536585365853658,0.7857142857142857,,0,Efficient
+C06,Organic Search,organic,Arjun Verma,,Historical,290,250,225,195,14000.0,56.0,71.7948717948718,0.8620689655172413,0.78,,0,Efficient
+C07,Community Groups,community,Nisha Rao,,Historical,250,200,185,165,16000.0,80.0,96.96969696969697,0.8,0.825,,0,Efficient
