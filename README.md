@@ -1,6 +1,6 @@
 # RISA Growth Center
 
-A working Streamlit analytics and execution application for **Challenge A: Attendee Growth**, with an embedded, database-grounded analyst. The supplied CampusFest event is fictional and historical (12–13 April 2025). Every future strategy is a proposal. The presentation contains exactly three slides and a `[Your Name]` placeholder.
+A working Streamlit analytics and execution application for **Challenge A: Attendee Growth**, with an embedded, database-grounded analyst. The supplied CampusFest event is fictional and historical (12–13 April 2025). Every future strategy is a proposal. The presentation contains exactly three slides and names Sarthak Dwivedi on slide one.
 
 ## Start here
 
